@@ -1,0 +1,39 @@
+.appWrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.scrollWrapper{
+    height: calc(100% - 50px);
+    overflow: auto;
+}
+
+.bodyWrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 88px 0;
+    width: 1200px;
+    margin: auto;
+}
+
+.titleWrapper{
+    padding: 30px 0;
+}
+
+.sectionWrapper{
+    border-top: 1px solid var(--color-grey4);
+    padding: 30px 0 40px;
+}
+
+.labItemsWrapper{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 33% [col-start]);
+    column-gap: 30px;
+    row-gap: 20px;
+}
+
+
+
