@@ -30,7 +30,7 @@ export default function Header({ title }) {
 				<div className={styles.linkWrapper}>
 					<div className={styles.buttonWrapper}>
 						<RedivisButtonText
-							href={`https://github.com/redivis.github.io`}
+							href={`https://github.com/redivis/redivis.github.io`}
 							target={'_blank'}
 						>
 							{'Github'}
